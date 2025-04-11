@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>Warthog</name>
+  <name>topics_quiz</name>
   <version>0.0.0</version>
-  <description>The Warthog package</description>
+  <description>The topics_quiz package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/Warthog</url> -->
+  <!-- <url type="website">http://wiki.ros.org/topics_quiz</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -52,11 +52,7 @@
   <build_depend>rospy</build_depend>
   <build_export_depend>rospy</build_export_depend>
   <exec_depend>rospy</exec_depend>
-  <build_depend>message_generation</build_depend> 
-  <build_export_depend>message_runtime</build_export_depend>
-  <exec_depend>message_runtime</exec_depend>
-  <build_depend>std_msgs</build_depend>
-  <exec_depend>std_msgs</exec_depend>
+
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
