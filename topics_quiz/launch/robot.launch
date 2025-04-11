@@ -1,0 +1,5 @@
+<launch>
+	<node name="robot_Warthog" pkg="topics_quiz" type="simple_topic_publisher.py" output="screen">
+	</node>
+</launch>
+
