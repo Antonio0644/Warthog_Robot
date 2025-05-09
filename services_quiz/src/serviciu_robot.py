@@ -11,7 +11,7 @@ def handle_circle(req):
 
     rospy.loginfo(f"Fac cerc cu raza ")
 
-    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+    pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
 
     vel_msg = Twist()
 
@@ -32,7 +32,7 @@ def circle_service_server():
 
     rospy.init_node('circle_service_server')
 
-    s = rospy.Service('circle_move', Square, handle_circle)
+    s = rospy.Service('circle_move', CustomSerMess, handle_circle)
 
     rospy.loginfo("Service pentru cerc pornit.")
 
