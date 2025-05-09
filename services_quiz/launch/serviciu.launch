@@ -1,0 +1,4 @@
+<launch>
+<node pkg="services_quiz" type="serviciu_robot.py" name="serviciul_nostru" output="screen">
+</node>
+</launch>
